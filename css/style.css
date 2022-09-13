@@ -138,7 +138,7 @@ header {
 }
 
 .banner-text-w3-agileits {
-	margin-top: 15.5em;
+	margin-top: 21.5em;
 	float: right;
 }
 
@@ -159,15 +159,14 @@ header {
 }
 
 .banner-text-w3-agileits h2:after {
-	position: absolute;
-	content: "";
-	width: 150px;
-	height: 2px;
-	bottom: -8px;
-	right: 1px;
-	background: firebrick;;
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 2px;
+    bottom: -8px;
+    right: 193px;
+    background: firebrick;
 }
-
 .banner-text-w3-agileits h2 span {
 	color:firebrick;;
 }
@@ -176,7 +175,7 @@ header {
 	color: #47cf73;
 	font-size: 1em;
 	letter-spacing: 7px;
-	font-weight: 400;
+	font-weight: bolder;
 	background: rgba(0, 0, 0, 0.32);
 	padding: 4px 14px;
 }
@@ -188,7 +187,6 @@ header {
 	float: right;
 	margin-top: 1em;
 }
-
 .botton a:hover span {
 	border-left: none;
 	border-bottom: 1px solid #ffffff;
@@ -366,15 +364,12 @@ nav.shift ul li a:hover:after {
 /*-- //header --*/
 
 .banner {
-	background: url(../images/my.jpg)no-repeat 0px 0px;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	-ms-background-size: cover;
+	background-image:linear-gradient(rgba(0,0,0,0.3) ,rgba(0,0,0,1)),url(../images/6.jpg);
 	background-size: cover;
 	min-height: 795px;
-	position: relative;
+	background-position: center;
 }
+
 
 .banner-text {
 	padding: 13em 0em 0 0;
